@@ -201,3 +201,38 @@ body {
   color: var(--akcent-color);
 }
 /* ===========  End Секция футер =========== */
+/* ================== ПОРТФОЛИО =================== */
+/* ================== Навигация =================== */
+.portfolio-navigation-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background: #f5f4fa;
+}
+.portfolio-navigation-button:hover,
+.portfolio-navigation-button:focus {
+  color: var(--background-color);
+  background: var(--akcent-color);
+}
+/* ================== End Навигация =================== */
+/* ================== Проэкты =================== */
+.projects-list-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.projects-list-paragraf {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* ================== End Проэкты =================== */
