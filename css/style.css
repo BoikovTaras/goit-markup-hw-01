@@ -1,3 +1,91 @@
-/* =========== Main stiles =========== */
+/* Палитра:
+        основной цвет текста    #757575
+        доп цвет текста         #212121
+        цвет акцента            #2196F3
+        вспомагательный цвет    #FFFFFF
+        цвеи ссылок             #FFFFFF 60 % 
+   шрифты:
+        Roboto 400, 500, 700
+        Raleway 700
+*/
 
-/* =========== End Main stiles =========== */
+/* =========== Основные стили =========== */
+:root {
+  --main-color: #757575;
+  --akcent-color: #2196f3;
+  --title-color: #212121;
+  --background-color: #ffffff;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
+}
+body {
+  color: var(--main-color);
+  background-color: var(--background-color);
+  font-family: var(--font-roboto);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* =========== End Основные стили =========== */
+
+/* =========== Шапка Сайта =========== */
+.main-header {
+}
+
+.logo {
+  font-family: var(--font-raleway);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.logo-akcent {
+  color: var(--akcent-color);
+}
+.main-header-items {
+  font-family: var(--font-roboto);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.main-header-items {
+  color: var(--title-color);
+}
+.main-header-items:hover,
+.main-header-items:focus {
+  color: var(--akcent-color);
+}
+.main-header-contacts {
+  font-family: var(--font-roboto);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.main-header-contacts-item {
+  color: var(--main-color);
+}
+.main-header-contacts-item:hover,
+.main-header-contacts-item:focus {
+  color: var(--akcent-color);
+}
+/* =========== End Шапка Сайта =========== */
+/* ===========  Секция Hero =========== */
+.hero {
+}
+
+/* ===========  End Секция Hero =========== */
